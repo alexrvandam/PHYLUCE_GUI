@@ -9,3 +9,49 @@ This is a simple Graphical User Interface (GUI) for the PHYLUCE pipeline that tr
 If you use this code you must also cite PHYLUCE and Stampy along with a few other helpers LASTAL 
 
 The GUI will help students and users of all levels keep organized and make the bar to entry of doing phylogenomics less intimidating. There are also a few good things that I added such as accepting spaces in some (but not all ) file names (spaces in file names should be avoided) it also solve a memory bloom issue at the lastz alignment step by writing the sql database in a step-wise manner. Other than these small additions it is basically PHYLUCE wrapped in a GUI, that students can run on their laptops. It assumes you already have assembled genomes. OK have fun with it and I hope it helps to improve your phylogenomic workflow.
+
+## Summary and Install
+# phyluce-one-pass (GUI + wrappers)
+
+A small GUI + a set of wrappers around **PhyLUCE Tutorial IV** (UCE probe design + in-silico test),
+with extra safeguards for non-interactive runs (no `[y/n]` prompts), memory bloom avoidance and for paths containing spaces.
+
+This repository also vendors the exact Stampy version used by the pipeline (`stampy-1.0.28/`).
+
+## What this runs
+
+The pipeline is very similar to and wraps major parts of the official PhyLUCE Tutorial IV workflow:
+https://phyluce.readthedocs.io/en/latest/tutorials/tutorial-4.html
+
+Key steps include:
+- Probe design / duplicate screening (LASTZ)
+- In-silico test of bait design against genomes (LASTZ)
+- UCE alignment (MAFFT), trimming (Gblocks), concatenation
+- Tree inference (RAxML)
+
+## Requirements
+
+- Linux recommended
+- Conda (Miniconda/Miniforge/Mambaforge)
+- Three conda envs are used:
+  - `phyluce-one-pass-gui`  (GUI runtime)
+  - `phyluce-1.7.3`         (PhyLUCE + external bioinformatics tools)
+  - `stampy_py27`           (Python 2.7 runtime for Stampy)
+
+## Installation
+
+```bash
+git clone <YOUR_GITHUB_REPO_URL>
+cd <YOUR_REPO_NAME>
+
+# Create envs
+conda env create -f envs/phyluce-one-pass-gui.yml
+conda env create -f envs/phyluce-1.7.3.yml
+conda env create -f envs/stampy_py27.yml
+```
+
+Then simply open a Terminal and run:
+```bash
+conda activate phyluce-one-pass-gui
+python phyluce_one_pass_master_gui_v3.py
+```
