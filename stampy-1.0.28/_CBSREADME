@@ -1,0 +1,20 @@
+====================================================================================================
+2015.09.07 by Erland Hochheim: Installed Stampy 1.0.28
+
+HOMEPAGE:       http://www.well.ox.ac.uk/project-stampy
+REGISTER:		http://www.well.ox.ac.uk/software-download-registration
+DL URL:			http://www.well.ox.ac.uk/bioinformatics/Software/Stampy-latest.tgz
+ROOT:           /services/tools/stampy-1.0.28
+Modules:        /services/tools/modulefiles/stampy
+
+Download, build and Install
+===========================
+[appsadmin@computerome01 Downloads]$ tar zxf Stampy-latest.tgz
+[appsadmin@computerome01 Downloads]$ cd stampy-1.0.28/
+[appsadmin@computerome01 stampy-1.0.28]$ module load anaconda/2.2.0
+[appsadmin@computerome01 stampy-1.0.28]$ module load gcc
+[appsadmin@computerome01 stampy-1.0.28]$ make
+[appsadmin@computerome01 stampy-1.0.28]$ ~/bin/fixpython.sh .
+[appsadmin@computerome01 stampy-1.0.28]$ cd ..
+[appsadmin@computerome01 Downloads]$ mv stampy-1.0.28/ /services/tools/
+
