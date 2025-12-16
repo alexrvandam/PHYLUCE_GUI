@@ -43,7 +43,7 @@ The genomes should all be in a root project folder like so:
 ```bash
 mkdir colpoptera/
 ```
-then just drag and drop or copy (cp etc.) your genomes into that folder as long as each has a unique name you are good.
+then just copy (cp or drag and drop if that copies on your system etc.) your genomes into that folder as long as each has a unique name.
 eg.
 /home/localuser/colpoptera
 
