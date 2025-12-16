@@ -1,7 +1,7 @@
 # PHYLUCE_GUI A graphical user interface (GUI) for the PHYLUCE pipeline
 
 
-![gui_image](phyluce_gui_screenshot.png)
+<img src="phyluce_gui_screen_shot.png" alt="GUI screenshot" width="800">
 
 
 ## License Statement:  Distributed under a Creative Commons Attribution-NonCommercial 4.0 International License 
