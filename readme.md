@@ -11,7 +11,7 @@ Creative Commons Attribution-NonCommercial 4.0 International License or similar 
 ## About
 This is a simple Graphical User Interface (GUI) for the PHYLUCE pipeline that tries to mirror the Tutorial IV from the PHYLUCE Readthedocs : https://phyluce.readthedocs.io/en/latest/tutorials/tutorial-4.html
 
-I have tested it with 47 arthropod genomes so it should work on a laptop for small projects around this size.
+I have tested PHYLUCE_GUI with 47 arthropod genomes on a linux laptop with 32GB of mem so it should work on a laptop for small projects around this size.
 
 If you use this code you must also cite PHYLUCE and Stampy along with a few other helpers LASTAL 
 
