@@ -6,6 +6,7 @@ match_contigs_to_probes.py
 
 Created by Brant Faircloth on 02 June 2011.
 Copyright 2011 Brant C. Faircloth. All rights reserved.
+now edited to allow for spaces in names without throwing errors
 """
 
 import re
