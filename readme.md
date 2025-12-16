@@ -38,6 +38,21 @@ Key steps include:
 
 Data requirements:
 Please note that you need assembled genomes to start running this pipeline (fasta format) but that's it no other data required.
+The genomes should all be in a root project folder like so:
+/home/localuser/My_genomes (or /home/localuser/colpoptera) or what ever your taxa is called then eg.:
+```bash
+mkdir colpoptera/
+```
+then just drag and drop or copy (cp etc.) your genomes into that folder as long as each has a unique name you are good.
+eg.
+/home/localuser/colpoptera
+
+inside the colpoptera folder
+
+colpoptera/genome1.fasta
+genome2.fasta
+genome1a.fasta
+genome3.fasta  and so on...............
 
 Software requirements:
 - Linux recommended
