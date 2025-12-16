@@ -36,6 +36,10 @@ Key steps include:
 
 ## Requirements
 
+Data requirements:
+Please note that you need assembled genomes to start running this pipeline (fasta format) but that's it no other data required.
+
+Software requirements:
 - Linux recommended
 - Conda (Miniconda/Miniforge/Mambaforge)
 - Three conda envs are used:
@@ -119,7 +123,6 @@ Additional utilities installed via Bioconda:
 
 ART (art_illumina), BWA, SAMtools, BEDTools, BCFtools, BAMTools, UCSC faToTwoBit
 
-Please note that you need assembled genonmes to run this pipeline (fasta format) but that's it no other data is needed.
 
 If you use this GUI and or it's code you must cite this page along with the other programs!
 Here are the needed bibliography citations:
