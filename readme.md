@@ -45,9 +45,9 @@ git clone <YOUR_GITHUB_REPO_URL>
 cd <YOUR_REPO_NAME>
 
 # Create envs
-conda env create -f envs/phyluce-one-pass-gui.yml
-conda env create -f envs/phyluce-1.7.3.yml
-conda env create -f envs/stampy_py27.yml
+conda env create -f gui_envs/phyluce-one-pass-gui.yml
+conda env create -f gui_envs/phyluce-1.7.3.yml
+conda env create -f gui_envs/stampy_py27.yml
 ```
 
 Then simply open a Terminal and run:
