@@ -41,8 +41,8 @@ Key steps include:
 ## Installation
 
 ```bash
-git clone <YOUR_GITHUB_REPO_URL>
-cd <YOUR_REPO_NAME>
+git clone https://github.com/alexrvandam/PHYLUCE_GUI.git
+cd PHYLUCE_GUI
 
 # Create envs
 conda env create -f gui_envs/phyluce-one-pass-gui.yml
