@@ -1,4 +1,4 @@
-# PHYLUCE_GUI A graphical user interface (GUI) for the PHYLUCE pipeline
+# PHYLUCE_GUI: A graphical user interface (GUI) for the PHYLUCE pipeline
 
 
 <img src="phyluce_gui_screen_shot.png" alt="GUI screenshot" width="800">
