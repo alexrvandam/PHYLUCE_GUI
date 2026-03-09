@@ -1,4 +1,39 @@
 cff-version: 1.2.0
+message: "If you use PHYLUCE_GUI, please cite it using the metadata below."
+title: "PHYLUCE_GUI"
+type: software
+version: "v0.1.0"
+authors:
+  - family-names: "Van Dam"
+    given-names: "Alex R."
+    orcid: "https://orcid.org/0000-0002-1966-0338"
+doi: "10.5281/zenodo.18924587"
+date-released: 2026-03-09
+repository-code: "https://github.com/alexrvandam/PHYLUCE_GUI"
+url: "https://github.com/alexrvandam/PHYLUCE_GUI"
+abstract: "A graphical user interface (GUI) and wrappers for PHYLUCE Tutorial IV workflows, including safeguards for non-interactive runs, path handling, and memory-aware processing for small phylogenomic projects."
+keywords:
+  - "PHYLUCE"
+  - "phylogenomics"
+  - "UCE"
+  - "GUI"
+  - "bioinformatics"
+  - "probe design"
+  - "in silico testing"
+license: "CC-BY-4.0"
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Van Dam"
+      given-names: "Alex R."
+      orcid: "https://orcid.org/0000-0002-1966-0338"
+  title: "PHYLUCE_GUI: GUI + wrappers for PhyLUCE Tutorial IV workflows"
+  version: "v0.1.0"
+  publisher: "Zenodo"
+  year: 2026
+  doi: "10.5281/zenodo.18924587"
+  url: "https://doi.org/10.5281/zenodo.18924587"
+
 message: >-
   If you use this software, please cite it using the preferred-citation below.
   If you use the underlying pipeline components, please also cite the listed references.
