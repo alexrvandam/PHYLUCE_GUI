@@ -177,7 +177,7 @@ Here are the needed bibliography citations:
 # References to Cite
 @misc{VanDam2025PHYLUCEGUI,
   author       = {Van Dam, Alex R.},
-  title        = {PHYLUCE\_GUI: A graphical user interface (GUI) for the PHYLUCE pipeline},
+  title        = {PHYLUCE_GUI: A graphical user interface (GUI) for the PHYLUCE pipeline},
   year         = {2025},
   howpublished = {GitHub repository},
   url          = {https://github.com/alexrvandam/PHYLUCE_GUI},
