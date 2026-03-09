@@ -143,6 +143,17 @@ ART (art_illumina), BWA, SAMtools, BEDTools, BCFtools, BAMTools, UCSC faToTwoBit
 
 If you use this GUI and or it's code you must cite this page along with the other programs!
 Here are the needed bibliography citations:
+@software{vandam_2026_phyluce_gui,
+  author    = {Van Dam, Alex R.},
+  title     = {PHYLUCE_GUI: GUI + wrappers for PhyLUCE Tutorial IV workflows},
+  version   = {v0.1.0},
+  year      = {2026},
+  month     = {mar},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.18924587},
+  url       = {https://doi.org/10.5281/zenodo.18924587},
+  swhid     = {swh:1:dir:03457383f9d049892518c9c8eb95f344c20087e4;origin=https://doi.org/10.5281/zenodo.18924586;visit=swh:1:snp:961699607856929e6f419ceccc04b77a49e26487;anchor=swh:1:rel:56d4c1e783ae9dec18f572e9dc63f79247339ddc;path=alexrvandam-PHYLUCE_GUI-b8ff6b6}
+}
 # References to Cite
 @misc{VanDam2025PHYLUCEGUI,
   author       = {Van Dam, Alex R.},
